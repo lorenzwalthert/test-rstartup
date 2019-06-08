@@ -1,0 +1,6 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
+cache: packages
+install: R -q -e "install.packages('enc'); print(.libPaths())"
+script: Rscript ".libPaths()"
