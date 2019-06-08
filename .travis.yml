@@ -2,6 +2,6 @@
 
 language: R
 cache: packages
-install: R -q -e "install.packages('enc'); print(.libPaths())"
+install: R -q -e "install.packages('enc'); print(c('Lib paths after installation are:',.libPaths()))"
 before_script: Rscript "r-profile"
 script: Rscript "show-lib-paths"
