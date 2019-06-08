@@ -3,4 +3,4 @@
 language: R
 cache: packages
 install: R -q -e "install.packages('enc'); print(.libPaths())"
-script: Rscript ".libPaths()"
+script: Rscript "show-lib-paths"
