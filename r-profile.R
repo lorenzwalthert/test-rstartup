@@ -1,0 +1,10 @@
+# #!/usr/bin/env Rscript
+# cat("Does R profile in $HOME exist?\n")
+# print(file.exists(file.path(Sys.getenv("HOME"), ".Rprofile")))
+# print("writing this to $HOME/.Rprofile:")
+# path_r_prof <- file.path(Sys.getenv("HOME"), ".Rprofile")
+# to_r_prof <- paste0(".libPaths('", .libPaths(), "')")
+# cat(to_r_prof, sep = "\n")
+# writeLines(to_r_prof, path_r_prof) 
+# cat("Reading back from R profile to double check:\n")
+# cat(readLines(path_r_prof), sep = "\n")
